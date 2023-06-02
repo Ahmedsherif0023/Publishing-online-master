@@ -1,0 +1,63 @@
+
+.myheader .shefo{
+  background-color: teal;
+}
+
+.myheader .sefo {
+  background-color: blue;
+}
+
+.sefo h1{
+  color: black;
+}
+.sefo .xz{
+  color: black;
+}
+.sefo i{
+  color: black;
+}
+
+.main-div label{
+  color: black;
+}
+
+.sub-div a{
+  color: black;
+}
+
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ==================
+    3. header of mobile
+===================== */
+.show-when-mobile {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .show-when-mobile {
+    display: block;
+  }
+  
+  .hide-when-mobile {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
